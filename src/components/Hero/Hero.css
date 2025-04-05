@@ -1,14 +1,7 @@
-.hero-main {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.2) -41.9%,
-    rgba(255, 255, 255, 0.4) 260.24%
-  );
-}
-
 .hero {
-  /* padding-top: 160px; */
+  padding-top: 160px;
   padding-bottom: 99px;
+  background-color: #08101e;
 }
 
 .hero__container {
@@ -29,6 +22,7 @@
   text-transform: uppercase;
   color: rgba(58, 104, 184, 1);
   padding-bottom: 10px;
+  color: #3a68b8;
 }
 
 .hero-left h1 {
@@ -37,6 +31,7 @@
   font-weight: 800;
   font-size: 55px;
   line-height: 130%;
+  color: #ffffff;
 }
 
 .hero-left p {
@@ -46,6 +41,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 160%;
+  color: #ffffff;
 }
 
 .hero-right {
@@ -56,22 +52,21 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-top: 50px;
 }
 
-.btn {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-}
 .btn button {
   border-radius: 5px;
-  padding-top: 15px;
-  padding-right: 30px;
-  padding-bottom: 15px;
-  padding-left: 30px;
+  padding: 15px 30px;
   gap: 10px;
   border: none;
   background-color: #3a68b8;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #ffffff;
 }
 
 .hero-btn button {
@@ -86,4 +81,5 @@
   padding-left: 30px;
   gap: 10px;
   border: none;
+  color: #ffffff;
 }

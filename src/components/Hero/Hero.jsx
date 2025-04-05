@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
-import HeroImg from '../assets/hero-img.png';
-import icon from '../assets/icon.svg'
+import HeroImg from '../../assets/hero-img.png';
+import icon from '../../assets/icon.svg';
 function Hero() {
   return (
     <div className="hero-main">
@@ -18,9 +18,7 @@ function Hero() {
             <div className="btn">
               <button>Get Started</button>
               <div className="hero-btn">
-                <button>
-                  <img src={icon} alt="icon"  width={27}/> Watch Video
-                </button>
+                <button>Watch Video</button>
               </div>
             </div>
           </div>
